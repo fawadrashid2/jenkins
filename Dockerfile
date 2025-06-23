@@ -7,8 +7,8 @@ WORKDIR /app
 # Create a simple HTTP server script
 COPY hello.py .
 
-# Expose port 85
-EXPOSE 85
+# Expose port 89
+EXPOSE 89
 
 # Run the script
 CMD ["python", "hello.py"]
