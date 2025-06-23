@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'hello85'
-        CONTAINER_NAME = 'hello85-container'
-        PORT = '85'
+        IMAGE_NAME = 'hello89'
+        CONTAINER_NAME = 'hello89-container'
+        PORT = '89'
     }
 
     stages {
