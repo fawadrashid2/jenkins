@@ -8,7 +8,7 @@ WORKDIR /app
 COPY hello.py .
 
 # Expose port 89
-EXPOSE 89
+EXPOSE 85
 
 # Run the script
 CMD ["python", "hello.py"]
